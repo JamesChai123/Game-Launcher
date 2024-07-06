@@ -52,7 +52,9 @@ class Game:
         config_window = Toplevel(root)
         config_window.geometry("400x400")
         config_window.title(self.name,"configuration")
+        config_label = tk.Label(config_window, text = "Game Configuration")
         
+
 
 class Game_Manager:
     def __init__(self):
